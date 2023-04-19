@@ -4,7 +4,7 @@ Keras implementation of "skeleton transformer module", which is mentioned in [Sk
 
 ## Install
 
-You can install this module from [PyPI](https://pypi.org/project/skeraton).
+You can install this module from [PyPI](https://pypi.org/project/skeraton) as `skeraton`.
 
 ```sh
 pip install skeraton
@@ -28,3 +28,7 @@ All parameters are required.
 
 **x:** 3-dimentional tensor of shape (batchsize, timesteps, kpts_dim*N) where N is number of joints
 
+## Pytorch implementation
+
+We also have Pytorch implementation of this module:  
+[https://github.com/Yutsuro/skeleton-transformer-Pytorch](https://github.com/Yutsuro/skeleton-transformer-Pytorch)
