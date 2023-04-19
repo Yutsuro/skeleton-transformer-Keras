@@ -130,3 +130,7 @@ dmypy.json
 
 # VSCode
 .history
+
+# Testing
+test.py
+tests/
